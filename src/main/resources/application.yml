@@ -1,7 +1,0 @@
-amazonProperties:
-  endpointUrl: https://bjpanda.s3.amazonaws.com
-  accessKey: AKIAY2HSDAGAW2WVDPHU
-  secretKey: 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
-  bucketName: bjpanda
- 
-server.port : 8090
