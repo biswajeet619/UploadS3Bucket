@@ -1,0 +1,19 @@
+amazonProperties:
+  endpointUrl: https://bjpanda.s3.amazonaws.com
+  accessKey: AKIAY2HSDAGAW2WVDPHU
+  secretKey: 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
+  bucketName: bjpanda
+ 
+server:
+  port: 8090
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/demo
+    password: 51a510
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    
+    
+jpa:
+    hibernate:
+      ddl-auto: none    

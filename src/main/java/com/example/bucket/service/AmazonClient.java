@@ -21,7 +21,7 @@ import java.util.Date;
 public class AmazonClient {
 
     private AmazonS3 s3client;
-
+    
     @Value("${amazonProperties.endpointUrl}")
     private String endpointUrl;
     @Value("${amazonProperties.bucketName}")
